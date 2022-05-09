@@ -26,6 +26,7 @@ void out(string print) { cout << print; }
 
 int main() {
   innum(": ", "Textspeed:\n1. Slow\n2. Medium\n3. Fast\n4. Instant\nChoice");
+  //change this if statement to adjust time
   if (ansnum == 1 || ansnum == 2 || ansnum == 3) {
     textspeed = 5 - (ansnum * 1.5);
   } else if (ansnum == 4) {
